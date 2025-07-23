@@ -78,7 +78,7 @@ Set your storage account in notebook variables or via Azure Key Vault
 2. Run `notebooks/01_ingest_data.py` to load data into ADLS raw zone
 3. Execute `02_clean_transform.py` to clean and join datasets
 4. Run `03_moving_averages.py` to compute and store window functions
-5. Execute `04_kpi_summary.py` to generate gold-layer KPIs
+5. Execute `04_kpi_summary.py` to generate gold-layer KPIs.
    You can run them in Databricks notebooks or trigger via CLI.
 
 
