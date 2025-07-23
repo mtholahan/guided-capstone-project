@@ -85,7 +85,7 @@ Set your storage account in notebook variables or via Azure Key Vault
 
 ## ✅ 4. Deployment & Orchestration
 
-- ADF/Synapse: `orchestrations/adf_pipeline.json` contains a scheduled pipeline with Databricks notebook activities
+- ADF: `orchestrations/adf_pipeline.json` contains a scheduled pipeline with Databricks notebook activities
 - Databricks CLI/REST: `scripts/trigger_databricks_job.sh` deploys and runs jobs
 
 ### Example:
