@@ -1,9 +1,7 @@
-# equity_market_data_analysis
+# 📈 Equity Market Data Analysis (Springboard Guided Capstone)
 
 ✅ 1. Prerequisites
-markdown
-Copy
-Edit
+
 ## 🧩 Prerequisites
 
 - Azure subscription with access to Databricks, ADLS Gen2, (OPTIONAL: Event Hubs and ADF)
@@ -11,10 +9,9 @@ Edit
 - Python 3.8+ (for local dev/testing)
 - VS Code with Python and Azure extensions
 - GitHub account and repo access
+- 
 ✅ 2. Getting Started / Quick Start
-markdown
-Copy
-Edit
+
 ## 🚀 Getting Started
 
 ### 1. Clone repo
@@ -54,9 +51,7 @@ Edit
 You can run them in Databricks notebooks or trigger via CLI.
 
 ✅ 4. Deployment & Orchestration
-markdown
-Copy
-Edit
+
 ## ⚙️ Deployment
 
 - ADF/Synapse: `orchestrations/adf_pipeline.json` contains a scheduled pipeline with Databricks notebook activities
@@ -87,10 +82,6 @@ Use environment variables or `conf/config.json`:
 }
 Secure sensitive configs in Azure Key Vault or Databricks secrets.
 
-yaml
-Copy
-Edit
-
 ---
 
 ### ✅ 6. **Testing & Validation**
@@ -103,9 +94,7 @@ Edit
 - Verify streaming correctness by adding sample files and observing outputs in `/outputs/logs`
 
 ✅ 7. CI/CD Integration
-markdown
-Copy
-Edit
+
 ## 🤖 CI/CD (Optional)
 
 - Set up GitHub Actions in `.github/workflows/ci.yml`
@@ -115,9 +104,7 @@ Edit
   - Deploying Databricks jobs using `databricks-cli`
 
 ✅ 8. Troubleshooting & Common Issues
-markdown
-Copy
-Edit
+
 ## 🛠 Troubleshooting
 
 ### Mounting ADLS fails:
@@ -132,9 +119,7 @@ Edit
 - Locate `_checkpoint` folder in logs and reset when needed
 
 ✅ 9. Contributing & Contact
-markdown
-Copy
-Edit
+
 ## 🤝 Contributing
 
 Feel free to submit PRs. For major changes, please open an issue first.
