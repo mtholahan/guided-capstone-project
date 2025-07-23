@@ -69,9 +69,10 @@ This prevents committing virtual environments, temp files, or IDE/project settin
 ### 4. Set up config file
 
 Copy the provided config template and customize it with your environment details:
-'''bash
+
+```bash
 cp conf/config.template.json conf/config.json
-'''
+```
 
 
 
