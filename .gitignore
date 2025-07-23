@@ -1,0 +1,33 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+*.db
+*.log
+*.env
+.env
+venv/
+.venv/
+
+# === Jupyter / Notebooks ===
+.ipynb_checkpoints/
+
+# === Databricks ===
+.databricks/
+.dbx/
+.dbc/
+conf/
+
+# === VS Code / JetBrains IDEs ===
+.vscode/
+.idea/
+
+# === OS / System files ===
+.DS_Store
+Thumbs.db
+
+# === Azure CLI local configs (if any accidentally land here) ===
+.azure/
