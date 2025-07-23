@@ -20,6 +20,8 @@ venv/
 .dbx/
 .dbc/
 conf/
+!conf/config.template.json
+
 
 # === VS Code / JetBrains IDEs ===
 .vscode/
