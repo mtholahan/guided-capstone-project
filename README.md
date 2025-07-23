@@ -16,7 +16,7 @@
 
 ### 1. Clone repo
 ```bash
-git clone https://github.com/<you>/equity-market-data-analysis.git
+git clone https://github.com/mtholahan/equity-market-data-analysis.git
 cd equity-market-data-analysis
 2. Install dependencies
 bash
@@ -31,10 +31,6 @@ Use az login to authenticate
 Configure Databricks CLI (via databricks configure --token)
 
 Set your storage account in notebook variables or via Azure Key Vault
-
-pgsql
-Copy
-Edit
 
 ---
 
@@ -60,9 +56,6 @@ You can run them in Databricks notebooks or trigger via CLI.
 ### Example:
 ```bash
 bash scripts/trigger_databricks_job.sh
-yaml
-Copy
-Edit
 
 ---
 
