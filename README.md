@@ -68,6 +68,12 @@ Configure Databricks CLI using 'databricks configure --token'
 
 Set your storage account in notebook variables or via Azure Key Vault
 
+### 4. Set up config file
+
+Copy the starter config and fill in your Azure values:
+
+```bash
+cp conf/config.template.json conf/config.json
 ---
 
 
