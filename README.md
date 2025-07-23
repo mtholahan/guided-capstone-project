@@ -9,7 +9,7 @@
 - Python 3.8+ (for local dev/testing)
 - VS Code with Python and Azure extensions
 - GitHub account and repo access
-- 
+  
 ✅ 2. Getting Started / Quick Start
 
 ## 🚀 Getting Started
