@@ -101,6 +101,7 @@ Edit
 - Unit test data-cleansing functions in `notebooks/99_utils.py`
 - Define schema validation (via Spark schemas or PyTest) for ingest pipelines
 - Verify streaming correctness by adding sample files and observing outputs in `/outputs/logs`
+
 ✅ 7. CI/CD Integration
 markdown
 Copy
@@ -112,6 +113,7 @@ Edit
   - Linting via `flake8`
   - Unit testing via `pytest`
   - Deploying Databricks jobs using `databricks-cli`
+
 ✅ 8. Troubleshooting & Common Issues
 markdown
 Copy
@@ -128,6 +130,7 @@ Edit
 
 ### Streaming checkpoint issues:
 - Locate `_checkpoint` folder in logs and reset when needed
+
 ✅ 9. Contributing & Contact
 markdown
 Copy
@@ -138,5 +141,7 @@ Feel free to submit PRs. For major changes, please open an issue first.
 
 ## 📫 Contact
 
-Mark – [email@example.com] or GitHub discussions/issues
+Mark – [markholahan@proton.me] or GitHub discussions/issues
+
 ✅ 10. Licensing & Acknowledgements
+MIT License
