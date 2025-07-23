@@ -62,11 +62,16 @@ This prevents committing virtual environments, temp files, or IDE/project settin
 
 ### 3. Configure Azure credentials
 
-Run 'az login' to authenticate
+- Run `az login` to authenticate
+- Configure Databricks CLI using `databricks configure --token`
+- Set your storage account in notebook variables or via Azure Key Vault
 
-Configure Databricks CLI using 'databricks configure --token'
+### 4. Set up config file
 
-Set your storage account in notebook variables or via Azure Key Vault
+Copy the provided config template and customize it with your environment details:
+'''bash
+cp conf/config.template.json conf/config.json
+'''
 
 
 
