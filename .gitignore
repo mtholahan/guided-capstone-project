@@ -11,25 +11,45 @@ __pycache__/
 .env
 venv/
 .venv/
+dist/
+build/
 
-# === Jupyter / Notebooks ===
+# === Databricks / Notebooks ===
+*.dbc
+*.dbx
+*.db
+*.bak
 .ipynb_checkpoints/
-
-# === Databricks ===
 .databricks/
 .dbx/
-.dbc/
+# Allow sample configs
 conf/
 !conf/config.template.json
 
+# === Notebooks (Exported) ===
+notebooks/*.ipynb
+notebooks/*.bak
+notebooks/__pycache__/
 
-# === VS Code / JetBrains IDEs ===
+# === IDE / Editor ===
 .vscode/
 .idea/
 
-# === OS / System files ===
+# === OS / System ===
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# === Azure CLI local configs (if any accidentally land here) ===
+# === Azure CLI / Local Secrets ===
 .azure/
+*.azure*
+*.pem
+*.key
+*.json
+*.ini
+!config.template.ini
+
+# === Reports / Outputs ===
+output/
+data/tmp/
+logs/
