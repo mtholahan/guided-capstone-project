@@ -27,7 +27,7 @@ conf/
 !conf/config.template.json
 
 # === Notebooks (Exported) ===
-notebooks/*.ipynb
+# notebooks/*.ipynb
 notebooks/*.bak
 notebooks/__pycache__/
 
