@@ -227,6 +227,8 @@ Together, these two capstones showcase the evolution from **foundational ETL arc
 
 ---
 
-© 2025 Mark Holahan — Springboard Data Engineering Bootcamp  
+© 2025 Mark Holahan — Springboard Data Engineering Bootcamp
+
+------
 
 > “Pipelines end, but data flows on.”
