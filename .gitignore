@@ -14,19 +14,28 @@ venv/
 dist/
 build/
 
+# === Project-specific Directories ===
+# Ignore Spark temporary output or Delta checkpoints
+output/
+data/tmp/
+logs/
+checkpoints/
+
+# === Configuration Files ===
+# Ignore real credentials, allow safe templates
+config/config.ini
+!config/config.sample.ini
+
 # === Databricks / Notebooks ===
 *.dbc
 *.dbx
-*.db
 *.bak
 .ipynb_checkpoints/
 .databricks/
 .dbx/
-# Allow sample configs
-conf/
-!conf/config.template.json
 
-# === Notebooks (Exported) ===
+# Keep notebooks for submission (don’t ignore .ipynb)
+# Uncomment below only if you want to hide WIP notebooks
 # notebooks/*.ipynb
 notebooks/*.bak
 notebooks/__pycache__/
@@ -40,16 +49,37 @@ notebooks/__pycache__/
 Thumbs.db
 desktop.ini
 
-# === Azure CLI / Local Secrets ===
+# === Azure / Secrets ===
 .azure/
 *.azure*
 *.pem
 *.key
+*.crt
+*.cer
 *.json
-*.ini
-!config.template.ini
+*.secrets
+*.saskey
 
-# === Reports / Outputs ===
-output/
-data/tmp/
-logs/
+# === Jupyter / Temp Files ===
+*.checkpoint
+profile_default/
+.ipython/
+.jupyter/
+*.nbconvert.ipynb
+
+# === Reports / Cache ===
+*.csv~
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# === Logs and Results ===
+logs/*.log
+spark-warehouse/
+derby.log
+
+# === Packaging / Distribution ===
+MANIFEST
+.eggs/
+*.manifest
